@@ -31,9 +31,7 @@
 			}
 			return results[1] || undefined;
 			 }
-			var pid = $.urlParam('dps_pid');
-		  var host = $.urlParam('host')
-		  var manifest = 'http://' + host + '/delivery/iiif/presentation/2.1/' + pid + '/manifest';
+		var manifest = $.urlParam('manifest') + '/manifest';
 	
 		// end
 			 
