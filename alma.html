@@ -32,8 +32,7 @@
 			}
 			return results[1] || undefined;
 			 }
-	        var pid = $.urlParam('dps_pid');
- 		var manifest = 'https://rosetta.exlibrisgroup.com/delivery/iiif/presentation/2.1/' + pid + '/manifest';	
+		var manifest = $.urlParam('manifest');
 	   // end
 			 
        myMiradorInstance = Mirador({
